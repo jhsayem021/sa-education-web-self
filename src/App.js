@@ -15,6 +15,7 @@ function App() {
   return (
     <BrowserRouter>
     <Header></Header>
+    
      <Switch>
        <Route path="/home" >
          <Home></Home>
@@ -31,7 +32,7 @@ function App() {
        <Route path="*" >
         <PageNotFound></PageNotFound>
        </Route>
-       <Route exact path="/" >
+       <Route exact  path="/" >
          <Home></Home>
        </Route>
      </Switch>
