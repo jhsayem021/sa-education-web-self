@@ -5,9 +5,14 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image:linear-gradient(rgb(197, 218, 228),rgba(216, 180, 180, 0.836) );
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+/* ./src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

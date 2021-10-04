@@ -1,0 +1,4 @@
+[{"courseId":1,"name":"Booster Course","duration":"6 month","topics":"Physics,Chemestry,Math","fee":16000,"image":"https://fiverr-res.cloudinary.com/images/q_auto,f_auto/gigs/168671053/original/a3bca391c3c85e258192468553ca9b9331931d03/help-you-in-chemistry-physics-and-maths.png"},
+    {"courseId":2,"name":"Chemistry Riders","duration":"3 month","topics":"Chemestry","fee":4500,"image":"https://leverageedu.com/blog/wp-content/uploads/2020/04/basic-chemistry.png"},
+    {"courseId":3,"name":"Math Buddy","duration":"3 month","topics":"Math","fee":5000,"image":"https://lh3.googleusercontent.com/proxy/QvzJAHKHv_uSxsW0lJalckWvidvG2MYhrzIyIfLRUjYv3eZkxnlmd1IlSWMXe28q07sz7Vt-CiiS1bMBUmuLxsiO"},
+    {"courseId":4,"name":"Physics Dynamite","duration":"3 month","topics":"Physics","fee":4000,"image":"https://assets.ltkcontent.com/images/26593/physics_0066f46bde.jpg"}]
