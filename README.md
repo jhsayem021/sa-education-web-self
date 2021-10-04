@@ -1,6 +1,6 @@
 # SA academic and Addmission Care
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project live site link >> https://brave-ritchie-50caf4.netlify.app/home
 
 ## Available Service
 
