@@ -5,7 +5,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image:linear-gradient(rgb(197, 218, 228),rgba(216, 180, 180, 0.836) );
+  font-family: 'Poppins', sans-serif;
+  
 }
 
 code {

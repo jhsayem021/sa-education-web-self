@@ -13,7 +13,7 @@ const Services = () => {
     },[])
     return (
         <div >
-            <Row xs={1} md={2} className="g-4 flex  grid grid-cols-3">
+            <Row xs={1} md={2} className="g-4 flex  grid lg:grid-cols-3 p-8">
             {
                 services.map(service=><Service 
                     key={service.id} 

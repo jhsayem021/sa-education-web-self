@@ -11,7 +11,7 @@ const Courses = (props) => {
     return (
         <div className="m-3 ">
 
-            <Col className="bg-blue-300 rounded p-3 grid justify-center">
+            <Col className="bg-blue-100 rounded p-3 grid justify-center">
                 <Card>
                   <Card.Img style={imgStyle} variant="top" src={image} />
                   <Card.Body className="py-4">
@@ -27,7 +27,7 @@ const Courses = (props) => {
                     </Card.Text>
                     <br />
                     <button className = "bg-green-700 text-white px-3 rounded-2xl">
-                      <Link to="/enroll">Enroll</Link>
+                      <Link to="/enroll">Enrollment Now</Link>
                     </button>
                   </Card.Body>
                 </Card>

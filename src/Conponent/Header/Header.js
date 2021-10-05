@@ -4,17 +4,20 @@ import './Header.css'
 const Header = () => {
     
     return (
-        <div>
-             <h1 className= "text-5xl text-red-400 text-center my-6">SA Academic and Addmission Care</h1>
+        <div className="grid ">
+             <h1 className= "lg:text-5xl text-3xl font-bold text-blue-800 text-center my-6 ">
+                 <span className= "lg:text-9xl text-7xl text-red-800 text-center my-2">SA </span>
+              Academic and Addmission Care</h1>
                 
                <div className="flex justify-between">
                     <div>
                     </div>
-                    <div className="flex m-3 text-sm" >
-                    <h5><Link  to = "/home">Home</Link></h5>
-                    <h5><Link to = "/services">Services</Link></h5>
-                    <h5> <Link to = "/enroll">Enrollment</Link></h5>
-                    <h5><Link to = "/about">About us</Link></h5>
+                    <div className="flex my-6 lg:px-3" >
+                    <Link className="link-style" to = "/home">Home</Link>
+                    <Link className="link-style" to = "/services">Services</Link>
+                    <Link className="link-style" to = "/enroll">Enrollment</Link>
+                    <Link className="link-style" to = "/about">About us</Link>
+                    <Link className="link-style" to = "/contact">Contact us</Link>
                     </div>
                </div>
                

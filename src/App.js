@@ -7,16 +7,22 @@ import About from './Conponent/About/About';
 
 import PageNotFound from './Conponent/PageNotFound/PageNotFound';
 import Header from './Conponent/Header/Header';
-import Footer from './Footer/Footer';
+import Footer from './Conponent/Footer/Footer';
 import Enroll from './Conponent/Enroll/Enroll';
+import Contact from './Conponent/Contact/Contact';
 
 
 function App() {
   return (
-    <BrowserRouter>
+    <div className="App">
+      <BrowserRouter>
     <Header></Header>
     
+     <div className="switch-style py-4">
      <Switch>
+     <Route exact  path="/" >
+         <Home></Home>
+       </Route>
        <Route path="/home" >
          <Home></Home>
        </Route>
@@ -29,15 +35,18 @@ function App() {
        <Route path="/enroll" >
         <Enroll></Enroll>
        </Route>
+       <Route path="/contact" >
+        <Contact></Contact>
+       </Route>
        <Route path="*" >
         <PageNotFound></PageNotFound>
        </Route>
-       <Route exact  path="/" >
-         <Home></Home>
-       </Route>
+       
      </Switch>
+     </div>
      <Footer></Footer>
     </BrowserRouter>
+    </div>
   );
 }
 
