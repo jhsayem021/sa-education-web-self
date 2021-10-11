@@ -8,3 +8,4 @@ This project live site link >> https://sa-education-web.netlify.app/
 * Student Can  choice our various educational package
 * Student Can Enroll their course by submiiting Information in the website.
 * Student can contact with us by our given conatact information
+* Its build using React,javascript,html,react-bootstrap and react-tailwind
